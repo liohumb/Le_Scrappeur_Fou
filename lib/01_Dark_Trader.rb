@@ -3,14 +3,14 @@ require 'rubygems'
 require 'nokogiri'
 require 'open-uri'
 
-#Url
+#Lien du site
  url = Nokogiri::HTML(URI.open("https://coinmarketcap.com/all/views/all/"))
 
-#Récuperation des cryptos en utilisant xpath et css
+#Récupération des cryptos en utilisant xpath et css
  sym = url.xpath('.//tbody').css('.cmc-table__cell--sort-by__symbol')
  sym_tx = sym.map{|abc| abc.text}
 
-#Récuperation des prix en utilisant xpath et css
+#Récupération des prix en utilisant xpath et css
  pr = url.xpath('.//tbody').css('.cmc-table__cell--sort-by__price')
  pr_txt = pr.map{|prc| prc.text}
 
