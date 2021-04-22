@@ -3,7 +3,7 @@
 
 Projet validant : Le Scrappeur Fou (semaine 3 / jour 4) THP.  
 
-Le début du scrapping est ici !  
+##Le début du scrapping est ici !  
 
 
 
@@ -22,9 +22,9 @@ Pour le lancer => ``ruby 02_Mairie_Christmas.rb``
 *source : [Annuaires des mairies](http://annuaire-des-mairies.com/val-d-oise.html)*
 
 
-• *Le programme* "Cher Député" *est un programme qui récupère les noms et mails des députéq de France*  
+• *Le programme* "Cher Député" *est un programme qui récupère les noms et mails des députés de France*  
 Pour le lancer => ``ruby 03_Cher_Depute.rb``  
 *source : [Assemblée nationale](http://www2.assemblee-nationale.fr)*
 
 # J'ALLAIS OUBLIER !
-## *Si tu veux quitter un programme avant la fin :* CTRL + C
+## *Si tu veux quitter un programme avant la fin* => CTRL + C
